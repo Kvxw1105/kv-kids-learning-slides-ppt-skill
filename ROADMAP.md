@@ -1,17 +1,21 @@
 # Roadmap
 
-## Completed
+## 近期
 
-- Child speech route
-- Editable PPTX workflow
-- Markdown to Word speaker script delivery
-- Visual component system
-- Geometry and visual review concepts
+- 完成《我的小花》标杆案例的第二轮艺术精修。
+- 增加人物型、知识型与故事型三类回归样例。
+- 建立稳定的儿童角色动作资产流水线。
+- 完成商业级字体锁版与多候选构图自动评分。
 
-## Next
+## 中期
 
-- Expand commercial visual themes
-- Build larger regression sample library
-- Improve automated aesthetic scoring
-- Add more subject-specific educational layouts
-- Formalize licensing and commercial distribution strategy
+- 增加更多可授权绘本视觉系统。
+- 建立模板市场、主题包与角色包。
+- 提供 Web 工作台和 Agent/MCP 接入能力。
+- 增加团队品牌规范和批量生产流程。
+
+## 商业化前
+
+- 完成许可与第三方素材审计。
+- 冻结产品分层、定价、交付标准和售后边界。
+- 建立样例图库、文档站和公开演示视频。

@@ -1,0 +1,17 @@
+name: Feature request
+description: 提交新的课件能力、视觉系统或交付需求
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: 使用场景
+      description: 年龄、平台、主题、语言和交付等级。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 期望行为
+      description: 描述输入、输出和验收标准。
+    validations:
+      required: true

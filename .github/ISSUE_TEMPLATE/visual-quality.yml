@@ -1,0 +1,19 @@
+name: Visual quality report
+description: 报告排版、字体、插画、重叠或商业成品感问题
+title: "[Visual QA] "
+labels: [visual-qa]
+body:
+  - type: textarea
+    attributes:
+      label: 问题页面与截图
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 实际观感
+      description: 说明压线、遮挡、空洞、模板感或其他问题。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 期望修复

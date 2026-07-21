@@ -1,4 +1,4 @@
 interface:
-  display_name: "KV Kids Learning Slides"
-  short_description: "Commercial-grade children's editable PPTX studio"
-  default_prompt: "Create a polished editable children's presentation with scripts and QA."
+  display_name: "儿童学习与演讲课件工坊"
+  short_description: "儿童教学、双语演讲、代码视觉组件与可编辑交付闭环"
+  brand_color: "#F29E4C"
