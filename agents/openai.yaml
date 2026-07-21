@@ -1,0 +1,4 @@
+interface:
+  display_name: "KV Kids Learning Slides"
+  short_description: "Commercial-grade children's editable PPTX studio"
+  default_prompt: "Create a polished editable children's presentation with scripts and QA."
