@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">KV Kids Learning Slides</title>
+  <desc id="desc">A commercial-grade child presentation skill combining storybook art direction, editable PowerPoint components and visual quality assurance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset=".55" stop-color="#f5eadc"/>
+      <stop offset="1" stop-color="#eaf3e5"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5a8aa"/>
+      <stop offset="1" stop-color="#cc6576"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9c793"/>
+      <stop offset="1" stop-color="#567a62"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#6d5141" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" rx="44" fill="url(#bg)"/>
+  <path d="M0 690C210 600 335 780 545 700S865 595 1040 690s360 45 560-35v245H0Z" fill="#dce9d3"/>
+  <path d="M0 748c210-55 360 65 550 13s335-35 520 32 340-20 530-58v165H0Z" fill="#c6d9b8" opacity=".72"/>
+  <g opacity=".75">
+    <circle cx="130" cy="135" r="26" fill="#f2b9bc"/><circle cx="158" cy="110" r="17" fill="#f2b9bc"/><circle cx="104" cy="106" r="17" fill="#f2b9bc"/><circle cx="129" cy="103" r="15" fill="#f2b9bc"/><circle cx="130" cy="121" r="8" fill="#e4b04d"/>
+    <circle cx="1450" cy="185" r="22" fill="#efc16d"/><circle cx="1474" cy="164" r="15" fill="#efc16d"/><circle cx="1427" cy="163" r="15" fill="#efc16d"/><circle cx="1450" cy="155" r="14" fill="#efc16d"/><circle cx="1450" cy="172" r="7" fill="#ca7d52"/>
+  </g>
+  <g transform="translate(1040 160)" filter="url(#shadow)">
+    <rect x="0" y="0" width="410" height="505" rx="60" fill="#fffdf9" stroke="#eacfc3" stroke-width="4"/>
+    <path d="M65 405c52-75 113-124 185-139 68-14 123 4 161 43v196H40c-2-36 6-69 25-100Z" fill="#e5efe0"/>
+    <circle cx="210" cy="205" r="120" fill="#f6d8c8"/>
+    <path d="M149 205c18-52 43-78 75-78 41 0 70 33 87 89-15-13-31-20-49-20-34 0-52 28-113 9Z" fill="#8a5a45"/>
+    <circle cx="178" cy="206" r="9" fill="#4b362e"/><circle cx="247" cy="206" r="9" fill="#4b362e"/>
+    <path d="M190 246c14 13 34 13 48 0" fill="none" stroke="#bd6a6f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M135 315c50-55 105-58 160 0l-18 120H153Z" fill="url(#pink)"/>
+    <g transform="translate(292 324)">
+      <rect x="-30" y="30" width="95" height="85" rx="18" fill="#c77950"/>
+      <path d="M-8 36c12-62 48-62 61 0" fill="none" stroke="#63866e" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="23" cy="4" r="34" fill="#f28b9b"/>
+      <circle cx="23" cy="4" r="11" fill="#f0c64e"/>
+    </g>
+  </g>
+  <g transform="translate(105 150)">
+    <rect x="0" y="0" width="760" height="555" rx="52" fill="#fffdf9" fill-opacity=".7" stroke="#ead6ca" stroke-width="3"/>
+    <rect x="55" y="55" width="186" height="52" rx="26" fill="#e6efe1"/>
+    <text x="148" y="89" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#55715e">COMMERCIAL V1.0</text>
+    <text x="55" y="178" font-family="Arial, sans-serif" font-size="82" font-weight="800" fill="#683e50">KV Kids</text>
+    <text x="55" y="260" font-family="Arial, sans-serif" font-size="82" font-weight="800" fill="#b85870">Learning Slides</text>
+    <text x="58" y="330" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#587360">儿童学习与演讲课件工坊</text>
+    <text x="58" y="388" font-family="Arial, sans-serif" font-size="26" fill="#6e665e">Storybook art direction · Editable PPTX · Bilingual scripts</text>
+    <text x="58" y="430" font-family="Arial, sans-serif" font-size="26" fill="#6e665e">Responsive composition · Visual self-review · Commercial QA</text>
+    <g transform="translate(58 478)">
+      <rect width="190" height="58" rx="29" fill="url(#pink)"/>
+      <text x="95" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Editable delivery</text>
+      <rect x="210" width="195" height="58" rx="29" fill="url(#green)"/>
+      <text x="308" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Agent-ready</text>
+      <rect x="425" width="220" height="58" rx="29" fill="#ead3a2"/>
+      <text x="535" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#694c36">Commercial pipeline</text>
+    </g>
+  </g>
+</svg>

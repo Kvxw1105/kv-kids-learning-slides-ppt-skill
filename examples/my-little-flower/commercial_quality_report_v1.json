@@ -1,0 +1,16 @@
+{
+  "schema": "kv_kids_commercial_quality_v1",
+  "status": "PASS",
+  "overall": 8.0,
+  "scores": {
+    "first_impression": 8.0,
+    "visual_hierarchy": 8.0,
+    "character_emotion": 8.0,
+    "page_rhythm": 8.0,
+    "typography_integration": 8.0,
+    "style_uniqueness": 8.0,
+    "commercial_finish": 8.0
+  },
+  "blocking_issues": [],
+  "note": "Scores are a structured gate; human visual judgment can override downward, never upward without review evidence."
+}

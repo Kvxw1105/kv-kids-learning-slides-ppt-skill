@@ -1,0 +1,285 @@
+[
+  {
+    "id": "paper-theater-editorial",
+    "visual_systems": [
+      "premium-paper-theater",
+      "storybook-warm"
+    ],
+    "title_en": {
+      "font_families": [
+        "Georgia",
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#C7547A",
+      "size_pt": 44,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#F7D4E2",
+      "shadow_offset_in": 0.035
+    },
+    "title_zh": {
+      "font_families": [
+        "Source Han Serif SC",
+        "KaiTi",
+        "Microsoft YaHei"
+      ],
+      "color": "#647A52",
+      "size_pt": 34,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#E3EBD8",
+      "shadow_offset_in": 0.035
+    },
+    "core_en": {
+      "font_families": [
+        "Trebuchet MS",
+        "Arial Rounded MT Bold",
+        "Arial"
+      ],
+      "color": "#8E4760",
+      "size_pt": 34,
+      "bold": true,
+      "effect": "watercolor-echo",
+      "shadow_color": "#F6D6E2",
+      "shadow_offset_in": 0.025
+    },
+    "core_zh": {
+      "font_families": [
+        "Microsoft YaHei",
+        "Source Han Sans SC",
+        "Arial"
+      ],
+      "color": "#4F6C4D",
+      "size_pt": 25,
+      "bold": true,
+      "effect": "none"
+    },
+    "label": {
+      "font_families": [
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#5A7180",
+      "size_pt": 23,
+      "bold": true,
+      "effect": "none"
+    },
+    "rules": {
+      "prohibit_pure_black": true,
+      "max_font_families": 4,
+      "max_text_colors": 5,
+      "min_title_body_ratio": 1.22
+    }
+  },
+  {
+    "id": "watercolor-storybook",
+    "visual_systems": [
+      "storybook-watercolor-glow"
+    ],
+    "title_en": {
+      "font_families": [
+        "Georgia",
+        "Baskerville",
+        "Times New Roman"
+      ],
+      "color": "#C24F75",
+      "size_pt": 46,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#F7D7E1",
+      "shadow_offset_in": 0.035
+    },
+    "title_zh": {
+      "font_families": [
+        "Source Han Serif SC",
+        "KaiTi",
+        "Microsoft YaHei"
+      ],
+      "color": "#667B4F",
+      "size_pt": 35,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#E6EEDC",
+      "shadow_offset_in": 0.035
+    },
+    "core_en": {
+      "font_families": [
+        "Georgia",
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#7F4D5B",
+      "size_pt": 35,
+      "bold": true,
+      "effect": "watercolor-echo",
+      "shadow_color": "#F3DDE3",
+      "shadow_offset_in": 0.025
+    },
+    "core_zh": {
+      "font_families": [
+        "Microsoft YaHei",
+        "Source Han Sans SC",
+        "Arial"
+      ],
+      "color": "#526D4A",
+      "size_pt": 26,
+      "bold": true,
+      "effect": "none"
+    },
+    "label": {
+      "font_families": [
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#67808A",
+      "size_pt": 23,
+      "bold": true,
+      "effect": "none"
+    },
+    "rules": {
+      "prohibit_pure_black": true,
+      "max_font_families": 4,
+      "max_text_colors": 5,
+      "min_title_body_ratio": 1.24
+    }
+  },
+  {
+    "id": "soft-clay-playful",
+    "visual_systems": [
+      "soft-clay-diorama"
+    ],
+    "title_en": {
+      "font_families": [
+        "Arial Rounded MT Bold",
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#C45678",
+      "size_pt": 44,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#F6D7E2",
+      "shadow_offset_in": 0.04
+    },
+    "title_zh": {
+      "font_families": [
+        "Microsoft YaHei",
+        "Source Han Sans SC",
+        "Arial"
+      ],
+      "color": "#55784E",
+      "size_pt": 34,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#DDEAD7",
+      "shadow_offset_in": 0.04
+    },
+    "core_en": {
+      "font_families": [
+        "Arial Rounded MT Bold",
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#7D5060",
+      "size_pt": 34,
+      "bold": true,
+      "effect": "none"
+    },
+    "core_zh": {
+      "font_families": [
+        "Microsoft YaHei",
+        "Source Han Sans SC",
+        "Arial"
+      ],
+      "color": "#4E6C4D",
+      "size_pt": 25,
+      "bold": true,
+      "effect": "none"
+    },
+    "label": {
+      "font_families": [
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#536F7F",
+      "size_pt": 23,
+      "bold": true,
+      "effect": "none"
+    },
+    "rules": {
+      "prohibit_pure_black": true,
+      "max_font_families": 4,
+      "max_text_colors": 5,
+      "min_title_body_ratio": 1.2
+    }
+  },
+  {
+    "id": "nursery-editorial",
+    "visual_systems": [
+      "clean-nursery-editorial"
+    ],
+    "title_en": {
+      "font_families": [
+        "Aptos Display",
+        "Georgia",
+        "Arial"
+      ],
+      "color": "#B64D70",
+      "size_pt": 45,
+      "bold": true,
+      "effect": "soft-shadow",
+      "shadow_color": "#F0DDE4",
+      "shadow_offset_in": 0.025
+    },
+    "title_zh": {
+      "font_families": [
+        "Source Han Sans SC",
+        "Microsoft YaHei",
+        "Arial"
+      ],
+      "color": "#526A4B",
+      "size_pt": 34,
+      "bold": true,
+      "effect": "none"
+    },
+    "core_en": {
+      "font_families": [
+        "Aptos",
+        "Trebuchet MS",
+        "Arial"
+      ],
+      "color": "#5F5361",
+      "size_pt": 34,
+      "bold": true,
+      "effect": "none"
+    },
+    "core_zh": {
+      "font_families": [
+        "Microsoft YaHei",
+        "Source Han Sans SC",
+        "Arial"
+      ],
+      "color": "#4E604C",
+      "size_pt": 25,
+      "bold": true,
+      "effect": "none"
+    },
+    "label": {
+      "font_families": [
+        "Aptos",
+        "Arial"
+      ],
+      "color": "#617581",
+      "size_pt": 22,
+      "bold": true,
+      "effect": "none"
+    },
+    "rules": {
+      "prohibit_pure_black": true,
+      "max_font_families": 3,
+      "max_text_colors": 4,
+      "min_title_body_ratio": 1.22
+    }
+  }
+]

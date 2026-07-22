@@ -1,0 +1,147 @@
+{
+  "mode": "smart",
+  "visual_system": "storybook-warm",
+  "capability_snapshot": {
+    "image_generate": true,
+    "image_search": false,
+    "pptx_native": true,
+    "render": true
+  },
+  "character_bible": {
+    "characters": [
+      {
+        "character_id": "speaker-girl-01",
+        "role": "speaker-avatar",
+        "identity_lock": {
+          "age": 5,
+          "hair": "short brown hair",
+          "outfit": "pink dress",
+          "signature": "pink flower hair clip",
+          "face_shape": "round",
+          "render_style": "soft pastel storybook"
+        },
+        "forbidden_changes": ["hair color", "outfit", "age", "signature accessory"]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "asset_id": "speaker-cover",
+      "slide_ids": ["S01"],
+      "purpose": "cover_hero",
+      "required": true,
+      "source_strategy": "generate",
+      "aspect_ratio": "16:9",
+      "composition": "girl on the right, flower garden, clean title space on the left",
+      "overlay_safe_area": "left 42%",
+      "story_state": "opening",
+      "required_action": "girl presents the flower theme",
+      "must_show_change": false,
+      "character_ids": ["speaker-girl-01"],
+      "identity_lock_ref": "character_bible:speaker-girl-01",
+      "reuse_policy": "anchor_only",
+      "prompt": "Original kindergarten storybook illustration, consistent five-year-old girl with short brown hair, pink dress and pink flower hair clip, standing in a gentle flower garden, girl on the right, clean title space on the left, soft pastel paper-texture style, no text, 16:9",
+      "negative_prompt": "watermark, embedded text, different outfit, different hairstyle, extra fingers, crowded background, existing IP",
+      "status": "planned"
+    },
+    {
+      "asset_id": "speaker-wave",
+      "slide_ids": ["S02", "S08"],
+      "purpose": "character_action",
+      "required": true,
+      "source_strategy": "generate",
+      "aspect_ratio": "4:5",
+      "composition": "same girl waving, transparent or simple background",
+      "overlay_safe_area": "opposite side of character",
+      "story_state": "greeting_and_closing",
+      "required_action": "girl waves to the audience",
+      "must_show_change": false,
+      "character_ids": ["speaker-girl-01"],
+      "identity_lock_ref": "character_bible:speaker-girl-01",
+      "reuse_policy": "narrative_repeat",
+      "prompt": "Same original five-year-old girl, short brown hair, pink dress, pink flower hair clip, round face, gently waving, soft pastel storybook style, clean simple background, no text",
+      "negative_prompt": "watermark, embedded text, outfit change, hairstyle change, older child, existing IP",
+      "status": "planned"
+    },
+    {
+      "asset_id": "flower-pot",
+      "slide_ids": ["S03"],
+      "purpose": "story_hero",
+      "required": true,
+      "source_strategy": "native-shapes",
+      "aspect_ratio": "1:1",
+      "composition": "single pink flower in a terracotta pot",
+      "overlay_safe_area": "right half",
+      "story_state": "introduction",
+      "required_action": "show the pink flower pot",
+      "must_show_change": false,
+      "character_ids": [],
+      "reuse_policy": "single_use",
+      "status": "planned"
+    },
+    {
+      "asset_id": "watering-action",
+      "slide_ids": ["S04"],
+      "purpose": "character_action",
+      "required": true,
+      "source_strategy": "native-shapes",
+      "aspect_ratio": "16:9",
+      "composition": "watering can, visible water drops, flower pot",
+      "overlay_safe_area": "bottom 25%",
+      "story_state": "watering",
+      "required_action": "watering can pours water into flower pot",
+      "must_show_change": false,
+      "character_ids": [],
+      "reuse_policy": "single_use",
+      "status": "planned"
+    },
+    {
+      "asset_id": "weather-pair",
+      "slide_ids": ["S05"],
+      "purpose": "story_hero",
+      "required": true,
+      "source_strategy": "native-shapes",
+      "aspect_ratio": "16:9",
+      "composition": "sun left, gentle rain cloud right, flower in center",
+      "overlay_safe_area": "bottom 25%",
+      "story_state": "growing_conditions",
+      "required_action": "sun shines and gentle rain falls",
+      "must_show_change": false,
+      "character_ids": [],
+      "reuse_policy": "single_use",
+      "status": "planned"
+    },
+    {
+      "asset_id": "growth-change",
+      "slide_ids": ["S06"],
+      "purpose": "state_change",
+      "required": true,
+      "source_strategy": "native-shapes",
+      "aspect_ratio": "16:9",
+      "composition": "bud on left, arrow, blooming flower on right",
+      "overlay_safe_area": "bottom 20%",
+      "story_state": "bud_to_bloom",
+      "required_action": "show bud before and flower after",
+      "must_show_change": true,
+      "character_ids": [],
+      "reuse_policy": "single_use",
+      "status": "planned"
+    },
+    {
+      "asset_id": "happy-flower",
+      "slide_ids": ["S07"],
+      "purpose": "story_hero",
+      "required": true,
+      "source_strategy": "native-shapes",
+      "aspect_ratio": "16:9",
+      "composition": "large blooming flower with soft hearts",
+      "overlay_safe_area": "bottom 25%",
+      "story_state": "joy",
+      "required_action": "show delight around the blooming flower",
+      "must_show_change": false,
+      "character_ids": [],
+      "reuse_policy": "single_use",
+      "status": "planned"
+    }
+  ]
+}

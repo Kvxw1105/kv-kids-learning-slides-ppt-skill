@@ -1,0 +1,16 @@
+{
+  "version": "0.8",
+  "engine": "storybook-responsive-v1",
+  "stage": {"width": 13.333, "height": 7.5},
+  "archetypes": [
+    {"id": "full-bleed-caption-island", "best_for": ["cover", "closing"], "container": "scalloped_panel", "edge_treatment": "soft_full_bleed", "max_consecutive": 1},
+    {"id": "character-speech-cloud", "best_for": ["greeting", "self-introduction", "dialogue"], "container": "speech_bubble", "edge_treatment": "corner_garden", "max_consecutive": 2},
+    {"id": "wraparound-object-story", "best_for": ["object-introduction", "description"], "container": "watercolor_blob", "edge_treatment": "botanical_wrap", "max_consecutive": 2},
+    {"id": "diagonal-action", "best_for": ["action", "process"], "container": "speech_bubble", "edge_treatment": "diagonal_motion", "max_consecutive": 1},
+    {"id": "weather-triptych", "best_for": ["weather", "compare"], "container": "leaf_label", "edge_treatment": "three_scene_strip", "max_consecutive": 1},
+    {"id": "three-vignette-growth", "best_for": ["growth", "sequence", "before-and-after"], "container": "scalloped_panel", "edge_treatment": "vignette_ribbon", "max_consecutive": 1},
+    {"id": "emotion-closeup", "best_for": ["emotion", "reflection"], "container": "cloud_bubble", "edge_treatment": "heart_and_petals", "max_consecutive": 1},
+    {"id": "object-constellation", "best_for": ["keywords", "vocabulary", "features"], "container": "petal_cluster", "edge_treatment": "floating_labels", "max_consecutive": 1},
+    {"id": "picturebook-window", "best_for": ["story", "explanation", "default"], "container": "torn_paper", "edge_treatment": "framed_window", "max_consecutive": 2}
+  ]
+}

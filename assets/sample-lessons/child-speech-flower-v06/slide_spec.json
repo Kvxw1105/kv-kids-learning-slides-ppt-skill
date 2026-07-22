@@ -1,0 +1,1058 @@
+{
+  "title": "My Little Flower / 我的小花",
+  "route": "create-child-speech-deck",
+  "usage_mode": "child_stage_speech",
+  "audience": {
+    "age": 5,
+    "age_band": "4-6",
+    "grade": "kindergarten",
+    "viewing_distance_m": 5
+  },
+  "aspect_ratio": "16:9",
+  "visual_system": "storybook-warm",
+  "output_variants": [
+    "stage",
+    "rehearsal",
+    "speaker_script"
+  ],
+  "bilingual": {
+    "mode": "paired_alternating",
+    "primary_language": "en",
+    "screen_policy": "one_short_line_per_language",
+    "speaker_sequence": [
+      "en",
+      "zh"
+    ]
+  },
+  "speech_story": {
+    "specific_object": "a small pink flower named Pinky, given by Grandma",
+    "action": "water it every morning",
+    "emotion_change": "a tiny bud opens and the child becomes excited"
+  },
+  "character_bible": {
+    "characters": [
+      {
+        "character_id": "speaker-girl-01",
+        "role": "speaker-avatar",
+        "identity_lock": {
+          "age": 5,
+          "hair": "short brown hair",
+          "outfit": "pink dress",
+          "signature": "pink flower hair clip",
+          "face_shape": "round",
+          "render_style": "soft pastel storybook"
+        },
+        "forbidden_changes": [
+          "hair color",
+          "outfit",
+          "age",
+          "signature accessory"
+        ]
+      }
+    ]
+  },
+  "slides": [
+    {
+      "id": "S01",
+      "role": "cover",
+      "purpose": "introduce the speech topic",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S01_Title_EN",
+            "role": "title",
+            "text": "My Little Flower",
+            "lang": "en",
+            "font_size_pt": 42,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S01_Title_ZH",
+            "role": "translation",
+            "text": "我的小花",
+            "lang": "zh",
+            "font_size_pt": 30,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "kindergarten-speech-cover",
+        "asset_ids": [
+          "speaker-cover"
+        ],
+        "story_state": "opening",
+        "required_action": "girl presents the flower theme",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "component_plan": [
+          {
+            "id": "top_scallops",
+            "type": "scallop_strip",
+            "x": 0.0,
+            "y": 0.02,
+            "w": 13.33,
+            "h": 0.28,
+            "layer": "background",
+            "fill": "#F8D4E2",
+            "transparency": 8,
+            "count": 20
+          },
+          {
+            "id": "bottom_grass",
+            "type": "grass",
+            "x": 0.55,
+            "y": 6.6,
+            "w": 2.3,
+            "h": 0.55,
+            "layer": "background",
+            "fill": "#88B96B",
+            "transparency": 12
+          },
+          {
+            "id": "corner_flower",
+            "type": "flower_sticker",
+            "x": 0.42,
+            "y": 5.75,
+            "w": 0.82,
+            "h": 0.82,
+            "layer": "foreground",
+            "fill": "#F6A6C8",
+            "accent": "#FFD66B"
+          },
+          {
+            "id": "sparkles",
+            "type": "sparkle_cluster",
+            "x": 5.78,
+            "y": 0.55,
+            "w": 0.92,
+            "h": 0.92,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 5
+          },
+          {
+            "id": "butterfly",
+            "type": "butterfly",
+            "x": 11.92,
+            "y": 0.62,
+            "w": 0.78,
+            "h": 0.64,
+            "layer": "foreground",
+            "fill": "#C9B8F4",
+            "accent": "#F6A6C8"
+          }
+        ],
+        "native_scene": false,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "Hello, everyone! I am Mia. Today I want to tell you a little story about my flower, Pinky.",
+        "script_zh": "大家好，我是米娅。今天我想给大家讲一个关于小粉花的小故事。",
+        "actions": [
+          "smile",
+          "small wave"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 7,
+        "animation_mode": "gentle",
+        "reveal_plan": [
+          "title_en",
+          "title_zh",
+          "hero"
+        ]
+      }
+    },
+    {
+      "id": "S02",
+      "role": "greeting",
+      "purpose": "greet the audience and build confidence",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S02_Line_EN",
+            "role": "core_line",
+            "text": "I like songs and flowers.",
+            "lang": "en",
+            "font_size_pt": 34,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S02_Line_ZH",
+            "role": "translation",
+            "text": "我喜欢儿歌和小花。",
+            "lang": "zh",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "hello-and-wave",
+        "asset_ids": [
+          "speaker-wave"
+        ],
+        "story_state": "greeting",
+        "required_action": "girl waves to the audience",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "component_plan": [
+          {
+            "id": "corner_dots",
+            "type": "dots",
+            "x": 0.3,
+            "y": 5.65,
+            "w": 1.35,
+            "h": 1.1,
+            "layer": "foreground",
+            "fill": "#F6A6C8",
+            "transparency": 8
+          },
+          {
+            "id": "hello_butterfly",
+            "type": "butterfly",
+            "x": 11.7,
+            "y": 0.45,
+            "w": 0.82,
+            "h": 0.68,
+            "layer": "foreground",
+            "fill": "#C9B8F4",
+            "accent": "#FFD66B"
+          },
+          {
+            "id": "hello_sparkles",
+            "type": "sparkle_cluster",
+            "x": 6.35,
+            "y": 4.85,
+            "w": 0.85,
+            "h": 0.75,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 12
+          }
+        ],
+        "native_scene": false,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "I am five years old. I like stories, songs, and pretty flowers.",
+        "script_zh": "我五岁了。我喜欢故事、儿歌，也喜欢漂亮的小花。",
+        "actions": [
+          "wave once",
+          "look at the audience"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 11,
+        "animation_mode": "gentle",
+        "reveal_plan": [
+          "avatar",
+          "english",
+          "chinese"
+        ]
+      }
+    },
+    {
+      "id": "S03",
+      "role": "object-introduction",
+      "purpose": "introduce the flower's name and origin",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S03_Line_EN",
+            "role": "core_line",
+            "text": "This is Pinky.",
+            "lang": "en",
+            "font_size_pt": 34,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S03_Line_ZH",
+            "role": "translation",
+            "text": "这是小粉。",
+            "lang": "zh",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "show-one-object",
+        "asset_ids": [
+          "flower-pot"
+        ],
+        "story_state": "introduction",
+        "required_action": "show the pink flower pot",
+        "character_ids": [],
+        "component_plan": [
+          {
+            "id": "object_leaf",
+            "type": "leaf_sprig",
+            "x": 11.55,
+            "y": 0.45,
+            "w": 1.2,
+            "h": 0.92,
+            "layer": "foreground",
+            "fill": "#88B96B"
+          },
+          {
+            "id": "object_dots",
+            "type": "dots",
+            "x": 11.2,
+            "y": 5.5,
+            "w": 1.25,
+            "h": 0.9,
+            "layer": "foreground",
+            "transparency": 12
+          },
+          {
+            "id": "object_sparkles",
+            "type": "sparkle_cluster",
+            "x": 5.8,
+            "y": 4.15,
+            "w": 0.78,
+            "h": 0.7,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 8
+          }
+        ],
+        "native_scene": false,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "This is Pinky. Grandma gave her to me in a small brown pot.",
+        "script_zh": "这是小粉。外婆把她种在一个小小的棕色花盆里送给我。",
+        "actions": [
+          "point to the flower"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 13,
+        "animation_mode": "gentle",
+        "reveal_plan": [
+          "flower",
+          "english",
+          "chinese"
+        ]
+      }
+    },
+    {
+      "id": "S04",
+      "role": "action",
+      "purpose": "show the daily caring action",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S04_Line_EN",
+            "role": "core_line",
+            "text": "Water, little by little.",
+            "lang": "en",
+            "font_size_pt": 32,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S04_Line_ZH",
+            "role": "translation",
+            "text": "一点一点浇水。",
+            "lang": "zh",
+            "font_size_pt": 24,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "one-action-one-line",
+        "asset_ids": [
+          "watering-action"
+        ],
+        "story_state": "watering",
+        "required_action": "watering can pours water into flower pot",
+        "character_ids": [],
+        "component_plan": [
+          {
+            "id": "action_panel",
+            "type": "paper_panel",
+            "x": 0.65,
+            "y": 0.55,
+            "w": 12.0,
+            "h": 4.45,
+            "layer": "background",
+            "fill": "#FFFDF8",
+            "line": "#F6D4E2",
+            "transparency": 0
+          },
+          {
+            "id": "action_drops",
+            "type": "dots",
+            "x": 10.65,
+            "y": 0.55,
+            "w": 1.25,
+            "h": 1.05,
+            "layer": "foreground",
+            "colors": [
+              "#9ED9F6",
+              "#72C8F0",
+              "#D8EEFA"
+            ],
+            "transparency": 4
+          },
+          {
+            "id": "action_heart",
+            "type": "heart",
+            "x": 8.8,
+            "y": 1.25,
+            "w": 0.7,
+            "h": 0.64,
+            "layer": "foreground",
+            "fill": "#F6A6C8",
+            "transparency": 7
+          },
+          {
+            "id": "action_grass",
+            "type": "grass",
+            "x": 3.78,
+            "y": 3.7,
+            "w": 2.35,
+            "h": 0.52,
+            "layer": "background",
+            "fill": "#88B96B",
+            "transparency": 18
+          }
+        ],
+        "native_scene": true,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "native_scene",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "Every morning, I give Pinky a little water. I say, please grow slowly and happily.",
+        "script_zh": "每天早上，我给小粉浇一点水。我会说：慢慢长大，开心长大。",
+        "actions": [
+          "pretend to pour water"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 14,
+        "animation_mode": "story-reveal",
+        "reveal_plan": [
+          "watering_can",
+          "water_drops",
+          "flower",
+          "lines"
+        ]
+      }
+    },
+    {
+      "id": "S05",
+      "role": "supporting-condition",
+      "purpose": "show what helps the flower grow",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S05_Line_EN",
+            "role": "core_line",
+            "text": "Sunshine and gentle rain.",
+            "lang": "en",
+            "font_size_pt": 34,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S05_Line_ZH",
+            "role": "translation",
+            "text": "阳光和小雨。",
+            "lang": "zh",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "weather-pair",
+        "asset_ids": [
+          "weather-pair"
+        ],
+        "story_state": "growing_conditions",
+        "required_action": "sun shines and gentle rain falls",
+        "character_ids": [],
+        "component_plan": [
+          {
+            "id": "weather_panel",
+            "type": "paper_panel",
+            "x": 0.48,
+            "y": 0.55,
+            "w": 12.37,
+            "h": 4.65,
+            "layer": "background",
+            "fill": "#FFFDF8",
+            "line": "#F4E0B6",
+            "transparency": 0
+          },
+          {
+            "id": "weather_top_ribbon",
+            "type": "ribbon",
+            "x": 4.45,
+            "y": 0.35,
+            "w": 4.35,
+            "h": 0.55,
+            "layer": "background",
+            "fill": "#FFF0B5",
+            "accent": "#FFD66B",
+            "text": "SUN + RAIN",
+            "text_color": "#8A5A3B",
+            "font_size_pt": 20
+          },
+          {
+            "id": "weather_leaf",
+            "type": "leaf_sprig",
+            "x": 0.45,
+            "y": 4.45,
+            "w": 1.2,
+            "h": 0.88,
+            "layer": "foreground",
+            "fill": "#88B96B"
+          },
+          {
+            "id": "weather_sparkles",
+            "type": "sparkle_cluster",
+            "x": 11.65,
+            "y": 4.45,
+            "w": 0.85,
+            "h": 0.75,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 10
+          }
+        ],
+        "native_scene": true,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "native_scene",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "Pinky likes warm sunshine. She also likes gentle rain. They help her grow every day.",
+        "script_zh": "小粉喜欢暖暖的阳光，也喜欢轻轻的小雨。它们每天帮助她长大。",
+        "actions": [
+          "point left for sun",
+          "point right for rain"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 13,
+        "animation_mode": "story-reveal",
+        "reveal_plan": [
+          "sun",
+          "cloud",
+          "rain",
+          "flower",
+          "lines"
+        ]
+      }
+    },
+    {
+      "id": "S06",
+      "role": "change",
+      "purpose": "show the small surprise in the story",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S06_Line_EN",
+            "role": "core_line",
+            "text": "A bud became a flower!",
+            "lang": "en",
+            "font_size_pt": 34,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S06_Line_ZH",
+            "role": "translation",
+            "text": "花苞开花了！",
+            "lang": "zh",
+            "font_size_pt": 26,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "before-and-after",
+        "asset_ids": [
+          "growth-change"
+        ],
+        "story_state": "bud_to_bloom",
+        "required_action": "show bud before and flower after",
+        "must_show_change": true,
+        "character_ids": [],
+        "component_plan": [
+          {
+            "id": "before_dots",
+            "type": "dots",
+            "x": 0.25,
+            "y": 0.25,
+            "w": 0.95,
+            "h": 0.72,
+            "layer": "foreground",
+            "transparency": 18
+          },
+          {
+            "id": "after_sparkles",
+            "type": "sparkle_cluster",
+            "x": 11.95,
+            "y": 0.22,
+            "w": 0.82,
+            "h": 0.72,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 6
+          },
+          {
+            "id": "growth_leaf",
+            "type": "leaf_sprig",
+            "x": 5.95,
+            "y": 4.45,
+            "w": 1.35,
+            "h": 0.9,
+            "layer": "foreground",
+            "fill": "#88B96B"
+          }
+        ],
+        "native_scene": true,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "native_scene",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "One morning, I saw a surprise. The tiny bud opened into a pink flower.",
+        "script_zh": "有一天早上，我看到了一个惊喜。小小的花苞开成了一朵粉色的花。",
+        "actions": [
+          "open both hands like a flower"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 15,
+        "animation_mode": "story-reveal",
+        "reveal_plan": [
+          "before",
+          "arrow",
+          "after",
+          "lines"
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "role": "emotion",
+      "purpose": "share a genuine feeling",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S07_Line_EN",
+            "role": "core_line",
+            "text": "I clapped and smiled.",
+            "lang": "en",
+            "font_size_pt": 36,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S07_Line_ZH",
+            "role": "translation",
+            "text": "我开心地拍手。",
+            "lang": "zh",
+            "font_size_pt": 27,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "emotion-moment",
+        "asset_ids": [
+          "happy-flower"
+        ],
+        "story_state": "joy",
+        "required_action": "girl reacts with delight to the blooming flower",
+        "character_ids": [],
+        "component_plan": [
+          {
+            "id": "emotion_sparkles_left",
+            "type": "sparkle_cluster",
+            "x": 0.55,
+            "y": 3.85,
+            "w": 0.95,
+            "h": 0.85,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 7
+          },
+          {
+            "id": "emotion_sparkles_right",
+            "type": "sparkle_cluster",
+            "x": 11.65,
+            "y": 3.65,
+            "w": 0.95,
+            "h": 0.85,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 7
+          },
+          {
+            "id": "emotion_butterfly",
+            "type": "butterfly",
+            "x": 10.85,
+            "y": 0.55,
+            "w": 0.78,
+            "h": 0.66,
+            "layer": "foreground",
+            "fill": "#C9B8F4",
+            "accent": "#F6A6C8"
+          }
+        ],
+        "native_scene": true,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "native_scene",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "I was so happy. I clapped my hands and said, Good morning, my sweet Pinky!",
+        "script_zh": "我开心极了。我拍拍手，对她说：早上好，我的小粉！",
+        "actions": [
+          "hands near cheeks",
+          "smile"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 12,
+        "animation_mode": "gentle",
+        "reveal_plan": [
+          "flower",
+          "hearts",
+          "lines"
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "role": "closing",
+      "purpose": "thank the audience with a warm flower wish",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S08_Line_EN",
+            "role": "core_line",
+            "text": "May your day bloom too!",
+            "lang": "en",
+            "font_size_pt": 34,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S08_Line_ZH",
+            "role": "translation",
+            "text": "愿你今天也绽放！",
+            "lang": "zh",
+            "font_size_pt": 24,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "layout": "simple-closing",
+        "asset_ids": [
+          "speaker-wave"
+        ],
+        "story_state": "closing",
+        "required_action": "girl waves goodbye beside flowers",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "component_plan": [
+          {
+            "id": "closing_scallops",
+            "type": "scallop_strip",
+            "x": 0.0,
+            "y": 6.88,
+            "w": 13.33,
+            "h": 0.3,
+            "layer": "background",
+            "fill": "#DFF3E1",
+            "transparency": 5,
+            "count": 20
+          },
+          {
+            "id": "closing_flower",
+            "type": "flower_sticker",
+            "x": 0.38,
+            "y": 5.72,
+            "w": 0.82,
+            "h": 0.82,
+            "layer": "foreground",
+            "fill": "#F6A6C8",
+            "accent": "#FFD66B"
+          },
+          {
+            "id": "closing_butterfly",
+            "type": "butterfly",
+            "x": 5.65,
+            "y": 0.5,
+            "w": 0.82,
+            "h": 0.68,
+            "layer": "foreground",
+            "fill": "#C9B8F4",
+            "accent": "#FFD66B"
+          },
+          {
+            "id": "closing_sparkles",
+            "type": "sparkle_cluster",
+            "x": 11.75,
+            "y": 5.35,
+            "w": 0.88,
+            "h": 0.8,
+            "layer": "foreground",
+            "fill": "#FFD66B",
+            "transparency": 8
+          }
+        ],
+        "native_scene": false,
+        "completion": {
+          "density": "balanced",
+          "intentional_minimalism": false,
+          "minimum_layers": 4,
+          "base_layers": [
+            "background",
+            "text",
+            "ai_or_source_image",
+            "code_components"
+          ],
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "speaker": {
+        "script_en": "Thank you for listening to my flower story. I hope your day can bloom like Pinky too.",
+        "script_zh": "谢谢大家听我的小花故事。愿你今天也像小粉一样慢慢绽放。",
+        "actions": [
+          "wave goodbye"
+        ]
+      },
+      "stage": {
+        "duration_seconds": 15,
+        "animation_mode": "gentle",
+        "reveal_plan": [
+          "closing_line",
+          "avatar",
+          "final_flower"
+        ]
+      }
+    }
+  ],
+  "speech_profile": {
+    "difficulty": "standard",
+    "target_duration_seconds": 115,
+    "target_english_words": [
+      80,
+      120
+    ],
+    "screen_density": "short_cues",
+    "script_density": "moderate"
+  },
+  "visual_component_system": {
+    "version": "0.6",
+    "renderer": "native-pptx-shapes",
+    "density": "balanced",
+    "policy": "Use code-generated components before requesting decorative AI images."
+  },
+  "typography": {
+    "theme_id": "paper-theater-editorial"
+  },
+  "composition_profile": {
+    "density": "balanced",
+    "min_coverage_ratio": 0.28,
+    "warn_coverage_ratio": 0.4,
+    "max_empty_region_ratio": 0.44,
+    "text_scale_ratio": 1.0
+  }
+}

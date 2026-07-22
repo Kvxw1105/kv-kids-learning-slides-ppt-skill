@@ -1,21 +1,21 @@
 # Roadmap
 
-## 近期
+## v1.1 — Commercial baseline hardening
 
-- 完成《我的小花》标杆案例的第二轮艺术精修。
-- 增加人物型、知识型与故事型三类回归样例。
-- 建立稳定的儿童角色动作资产流水线。
-- 完成商业级字体锁版与多候选构图自动评分。
+- Complete three regression themes: person, science and story.
+- Improve character action asset consistency.
+- Add commercial delivery manifest and versioned release package.
+- Add visual benchmark comparisons across production modes.
 
-## 中期
+## v1.2 — Productization
 
-- 增加更多可授权绘本视觉系统。
-- 建立模板市场、主题包与角色包。
-- 提供 Web 工作台和 Agent/MCP 接入能力。
-- 增加团队品牌规范和批量生产流程。
+- Create a guided intake UI or form schema.
+- Add theme preview cards and reusable visual presets.
+- Add reusable customer brand packs.
+- Add install and upgrade documentation for multiple Agent environments.
 
-## 商业化前
+## v2.0 — Service layer
 
-- 完成许可与第三方素材审计。
-- 冻结产品分层、定价、交付标准和售后边界。
-- 建立样例图库、文档站和公开演示视频。
+- Separate private generation engine from public product surface.
+- Add project persistence and repeatable customer workspaces.
+- Add licensing, account and delivery controls where appropriate.

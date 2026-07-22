@@ -1,0 +1,86 @@
+{
+  "beats": [
+    {
+      "id": "B01",
+      "purpose": "title",
+      "duration_seconds": 5,
+      "object_or_action": "show the flower theme",
+      "emotion": "curious",
+      "slide_role": "cover",
+      "script_intent": "set the topic"
+    },
+    {
+      "id": "B02",
+      "purpose": "greeting",
+      "duration_seconds": 10,
+      "object_or_action": "wave",
+      "emotion": "friendly",
+      "slide_role": "greeting",
+      "script_intent": "say hello and introduce herself"
+    },
+    {
+      "id": "B03",
+      "purpose": "introduce object",
+      "duration_seconds": 12,
+      "object_or_action": "show Pinky",
+      "emotion": "proud",
+      "slide_role": "object-introduction",
+      "script_intent": "name the flower and mention Grandma"
+    },
+    {
+      "id": "B04",
+      "purpose": "daily action",
+      "duration_seconds": 12,
+      "object_or_action": "water the flower",
+      "emotion": "caring",
+      "slide_role": "action",
+      "script_intent": "describe a simple routine"
+    },
+    {
+      "id": "B05",
+      "purpose": "supporting conditions",
+      "duration_seconds": 10,
+      "object_or_action": "point to sun and rain",
+      "emotion": "playful",
+      "slide_role": "supporting-condition",
+      "script_intent": "explain what the flower loves"
+    },
+    {
+      "id": "B06",
+      "purpose": "visible change",
+      "duration_seconds": 12,
+      "object_or_action": "show bud then bloom",
+      "emotion": "surprised",
+      "slide_role": "change",
+      "script_intent": "create a small story turn"
+    },
+    {
+      "id": "B07",
+      "purpose": "emotion",
+      "duration_seconds": 10,
+      "object_or_action": "hands near cheeks",
+      "emotion": "happy",
+      "slide_role": "emotion",
+      "script_intent": "share a real feeling"
+    },
+    {
+      "id": "B08",
+      "purpose": "closing",
+      "duration_seconds": 9,
+      "object_or_action": "wave goodbye",
+      "emotion": "warm",
+      "slide_role": "closing",
+      "script_intent": "thank the audience with a flower wish"
+    }
+  ],
+  "speech_profile": {
+    "difficulty": "standard",
+    "target_duration_seconds": 115,
+    "target_english_words": [
+      80,
+      120
+    ],
+    "screen_density": "short_cues",
+    "script_density": "moderate"
+  }
+}

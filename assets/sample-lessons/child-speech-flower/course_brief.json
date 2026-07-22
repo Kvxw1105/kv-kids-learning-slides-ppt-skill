@@ -1,0 +1,48 @@
+{
+  "title": "My Little Flower / 我的小花",
+  "route": "create-child-speech-deck",
+  "subject": "bilingual child speech",
+  "age": 5,
+  "age_band": "4-6",
+  "duration_minutes": 1.5,
+  "usage_mode": "child_stage_speech",
+  "speaker_name": "Mia",
+  "speech_duration_seconds": 90,
+  "viewing_distance_m": 5,
+  "visual_mode": "smart",
+  "output_mode": "editable_pptx",
+  "output_variants": [
+    "stage",
+    "rehearsal",
+    "speaker_script"
+  ],
+  "bilingual": {
+    "mode": "paired_alternating",
+    "primary_language": "en",
+    "screen_policy": "one_short_line_per_language",
+    "speaker_sequence": [
+      "en",
+      "zh"
+    ]
+  },
+  "story_details": {
+    "specific_object": "a small pink flower named Pinky, given by Grandma",
+    "action": "water it every morning",
+    "emotion_change": "a tiny bud opens and the child becomes excited"
+  },
+  "constraints": [
+    "formal stage deck must not show full script",
+    "same child character throughout",
+    "all visible stage text at least 20pt"
+  ],
+  "speech_profile": {
+    "difficulty": "standard",
+    "target_duration_seconds": 115,
+    "target_english_words": [
+      80,
+      120
+    ],
+    "screen_density": "short_cues",
+    "script_density": "moderate"
+  }
+}

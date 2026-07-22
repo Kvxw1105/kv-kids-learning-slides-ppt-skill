@@ -1,0 +1,313 @@
+{
+  "schema": "kv_kids_composition_candidates_v1",
+  "slides": [
+    {
+      "slide_id": "S01",
+      "role": "cover",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "full-bleed-hero-title-island",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for cover."
+        },
+        {
+          "candidate": "B",
+          "prototype": "character-and-speech-bubble",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for cover."
+        },
+        {
+          "candidate": "C",
+          "prototype": "object-closeup-with-petal-tags",
+          "score": {
+            "eye_path": 6,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate C varies rhythm for cover."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S02",
+      "role": "greeting",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "character-and-speech-bubble",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for greeting."
+        },
+        {
+          "candidate": "B",
+          "prototype": "object-closeup-with-petal-tags",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for greeting."
+        },
+        {
+          "candidate": "C",
+          "prototype": "diagonal-action",
+          "score": {
+            "eye_path": 6,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate C varies rhythm for greeting."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S03",
+      "role": "object-introduction",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "object-closeup-with-petal-tags",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for object-introduction."
+        },
+        {
+          "candidate": "B",
+          "prototype": "diagonal-action",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for object-introduction."
+        },
+        {
+          "candidate": "C",
+          "prototype": "triptych-growth",
+          "score": {
+            "eye_path": 6,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate C varies rhythm for object-introduction."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S04",
+      "role": "world-opens",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "diagonal-action",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for world-opens."
+        },
+        {
+          "candidate": "B",
+          "prototype": "triptych-growth",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for world-opens."
+        },
+        {
+          "candidate": "C",
+          "prototype": "emotion-closeup",
+          "score": {
+            "eye_path": 6,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate C varies rhythm for world-opens."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S05",
+      "role": "action",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "triptych-growth",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for action."
+        },
+        {
+          "candidate": "B",
+          "prototype": "emotion-closeup",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for action."
+        },
+        {
+          "candidate": "C",
+          "prototype": "storybook-window",
+          "score": {
+            "eye_path": 6,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate C varies rhythm for action."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S06",
+      "role": "growth",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "emotion-closeup",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for growth."
+        },
+        {
+          "candidate": "B",
+          "prototype": "storybook-window",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for growth."
+        },
+        {
+          "candidate": "C",
+          "prototype": "constellation-labels",
+          "score": {
+            "eye_path": 6,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate C varies rhythm for growth."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S07",
+      "role": "emotion-peak",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "storybook-window",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for emotion-peak."
+        },
+        {
+          "candidate": "B",
+          "prototype": "constellation-labels",
+          "score": {
+            "eye_path": 7,
+            "hierarchy": 8,
+            "emotion": 8,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate B varies rhythm for emotion-peak."
+        }
+      ],
+      "selected": "A"
+    },
+    {
+      "slide_id": "S08",
+      "role": "closing",
+      "candidates": [
+        {
+          "candidate": "A",
+          "prototype": "constellation-labels",
+          "score": {
+            "eye_path": 8,
+            "hierarchy": 8,
+            "emotion": 7,
+            "readability": 8,
+            "novelty": 7
+          },
+          "reason": "Candidate A varies rhythm for closing."
+        }
+      ],
+      "selected": "A"
+    }
+  ]
+}

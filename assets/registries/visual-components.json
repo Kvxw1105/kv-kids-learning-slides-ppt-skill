@@ -1,0 +1,213 @@
+{
+  "version": "0.8",
+  "policy": "Use editable native PowerPoint components before requesting decorative AI images.",
+  "components": [
+    {
+      "id": "flower_sticker",
+      "category": "sticker",
+      "editable": true,
+      "best_for": [
+        "garden",
+        "growth",
+        "closing"
+      ]
+    },
+    {
+      "id": "leaf_sprig",
+      "category": "sticker",
+      "editable": true,
+      "best_for": [
+        "corners",
+        "object framing"
+      ]
+    },
+    {
+      "id": "butterfly",
+      "category": "sticker",
+      "editable": true,
+      "best_for": [
+        "motion cue",
+        "gentle story"
+      ]
+    },
+    {
+      "id": "sparkle_cluster",
+      "category": "sticker",
+      "editable": true,
+      "best_for": [
+        "reveal",
+        "celebration"
+      ]
+    },
+    {
+      "id": "heart",
+      "category": "sticker",
+      "editable": true,
+      "best_for": [
+        "emotion",
+        "care"
+      ]
+    },
+    {
+      "id": "star",
+      "category": "sticker",
+      "editable": true,
+      "best_for": [
+        "reward",
+        "highlight"
+      ]
+    },
+    {
+      "id": "ribbon",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "title",
+        "section label"
+      ]
+    },
+    {
+      "id": "scallop_strip",
+      "category": "frame",
+      "editable": true,
+      "best_for": [
+        "paper theater",
+        "page edge"
+      ]
+    },
+    {
+      "id": "dots",
+      "category": "filler",
+      "editable": true,
+      "best_for": [
+        "small blank corner",
+        "rhythm"
+      ]
+    },
+    {
+      "id": "grass",
+      "category": "base",
+      "editable": true,
+      "best_for": [
+        "bottom anchor",
+        "nature scene"
+      ]
+    },
+    {
+      "id": "badge",
+      "category": "label",
+      "editable": true,
+      "best_for": [
+        "name",
+        "step",
+        "achievement"
+      ]
+    },
+    {
+      "id": "paper_panel",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "scene grouping",
+        "blank-area completion"
+      ]
+    },
+    {
+      "id": "cloud_bubble",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "greeting",
+        "emotion",
+        "short bilingual pair"
+      ]
+    },
+    {
+      "id": "speech_bubble",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "dialogue",
+        "self introduction",
+        "action line"
+      ]
+    },
+    {
+      "id": "scalloped_panel",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "cover",
+        "growth vignette",
+        "closing"
+      ]
+    },
+    {
+      "id": "watercolor_blob",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "watercolor story",
+        "object description",
+        "soft framing"
+      ]
+    },
+    {
+      "id": "petal_cluster",
+      "category": "label-group",
+      "editable": true,
+      "best_for": [
+        "three or more vocabulary labels",
+        "object features"
+      ]
+    },
+    {
+      "id": "leaf_label",
+      "category": "label",
+      "editable": true,
+      "best_for": [
+        "nature vocabulary",
+        "weather labels"
+      ]
+    },
+    {
+      "id": "torn_paper",
+      "category": "container",
+      "editable": true,
+      "best_for": [
+        "storybook window",
+        "handmade editorial"
+      ]
+    },
+    {
+      "id": "brush_underline",
+      "category": "typography-accent",
+      "editable": true,
+      "best_for": [
+        "title emphasis",
+        "bilingual pairing"
+      ]
+    },
+    {
+      "id": "storybook_frame",
+      "category": "edge-treatment",
+      "editable": true,
+      "best_for": [
+        "page edge",
+        "picturebook window"
+      ]
+    }
+  ],
+  "animated_assets": [
+    {
+      "id": "sparkle-pulse",
+      "format": "gif",
+      "use": "optional motion accent"
+    },
+    {
+      "id": "butterfly-flap",
+      "format": "gif",
+      "use": "optional motion accent"
+    }
+  ]
+}

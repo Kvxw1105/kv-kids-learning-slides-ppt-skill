@@ -1,0 +1,25 @@
+{
+  "mode": "smart",
+  "visual_system": "block-math-lab",
+  "capability_snapshot": {
+    "image_generate": false,
+    "image_search": false
+  },
+  "assets": [
+    {
+      "asset_id": "cover-hero",
+      "slide_ids": [
+        "S01"
+      ],
+      "purpose": "cover_hero",
+      "required": true,
+      "source_strategy": "external-prompt-pack",
+      "aspect_ratio": "16:9",
+      "composition": "五个孩子围桌分糖果，顶部留标题区",
+      "overlay_safe_area": "top 30%",
+      "prompt": "原创儿童教育插画，五个小朋友围坐桌边平均分17颗糖，积木数学实验室风，清晰圆润，顶部留白，16:9，无文字",
+      "negative_prompt": "水印，内嵌文字，复杂背景，错误糖果数量，现成IP",
+      "status": "planned"
+    }
+  ]
+}

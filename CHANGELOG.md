@@ -1,9 +1,11 @@
 # Changelog
 
-## 1.0.0
+## 1.0
 
-- 建立儿童课堂与儿童演讲双路线。
-- 增加商业精品生产模式、艺术方向合同与多候选构图。
-- 增加角色表演资产规划、响应式绘本布局与字体锁版。
-- 增加 PPTX 几何审查、截图视觉审查和商业质量评分。
-- 支持可编辑 PPTX、Markdown/Word 讲稿、排练版和 QA 报告。
+- Added commercial delivery levels.
+- Added art-direction contract and commercial aesthetic review.
+- Added multi-candidate composition workflow.
+- Added character performance asset planning.
+- Added responsive storybook layouts and editable child-oriented components.
+- Added geometry review, rendered visual review and quality-report binding.
+- Added Markdown and editable Word speaker-script delivery.

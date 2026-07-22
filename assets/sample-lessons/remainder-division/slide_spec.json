@@ -1,0 +1,100 @@
+{
+  "title": "有余数除法",
+  "audience": {
+    "age": "7-8",
+    "grade": "二年级"
+  },
+  "aspect_ratio": "16:9",
+  "visual_system": "block-math-lab",
+  "slides": [
+    {
+      "id": "S01",
+      "role": "cover",
+      "learning_goal": "进入分糖任务情境",
+      "screen": {
+        "title": "17颗糖，怎么平均分？",
+        "body": "有余数除法探险"
+      },
+      "visual": {
+        "layout": "cover",
+        "asset_ids": [
+          "cover-hero"
+        ]
+      },
+      "interaction": {},
+      "teacher": {
+        "script": "用分糖问题引出今天的任务。",
+        "expected_answer": ""
+      }
+    },
+    {
+      "id": "S02",
+      "role": "guided-discovery",
+      "learning_goal": "通过分组理解剩余",
+      "screen": {
+        "title": "分给5个小朋友",
+        "body": "先摆一摆：每人能分几颗？还剩几颗？"
+      },
+      "visual": {
+        "layout": "concrete-manipulation",
+        "native_objects": [
+          {
+            "type": "counter",
+            "count": 17
+          },
+          {
+            "type": "tray",
+            "count": 5
+          }
+        ]
+      },
+      "interaction": {
+        "student_action": "摆一摆或口头回答",
+        "reveal": "after-response"
+      },
+      "teacher": {
+        "script": "先让孩子猜，再逐轮分。",
+        "expected_answer": "每人3颗，剩2颗",
+        "misconception": "把2颗继续平均分"
+      }
+    },
+    {
+      "id": "S03",
+      "role": "conclusion",
+      "learning_goal": "认识余数并理解余数小于除数",
+      "screen": {
+        "title": "剩下的2颗叫余数",
+        "body": "17 ÷ 5 = 3……2\n余数要比除数小"
+      },
+      "visual": {
+        "layout": "rule-reveal"
+      },
+      "interaction": {
+        "student_action": "用自己的话复述"
+      },
+      "teacher": {
+        "script": "追问为什么余数不能等于5。",
+        "expected_answer": "如果还有5颗，还能再分一轮"
+      }
+    },
+    {
+      "id": "S04",
+      "role": "assessment",
+      "learning_goal": "独立判断商和余数",
+      "screen": {
+        "title": "离堂小挑战",
+        "body": "23支铅笔平均放进4个盒子，每盒几支？还剩几支？"
+      },
+      "visual": {
+        "layout": "exit-ticket"
+      },
+      "interaction": {
+        "student_action": "独立完成"
+      },
+      "teacher": {
+        "script": "收集答案判断是否达标。",
+        "expected_answer": "每盒5支，剩3支"
+      }
+    }
+  ]
+}

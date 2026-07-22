@@ -1,0 +1,285 @@
+[
+  {
+    "id": "storybook-warm",
+    "name": "绘本童趣",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "subjects": [
+      "language",
+      "english",
+      "life"
+    ],
+    "palette": [
+      "#FFF7E8",
+      "#F29E4C",
+      "#6EC5A8",
+      "#5B4B49"
+    ],
+    "line_style": "soft hand-drawn",
+    "background_complexity": "low",
+    "image_bias": "high",
+    "usage_modes": [
+      "child_stage_speech",
+      "classroom_learning",
+      "family_tutoring"
+    ],
+    "shape_language": "soft paper cutouts, clouds, leaves and ribbons",
+    "text_container_language": "rounded story labels, not office rectangles",
+    "stage_min_font_pt": 20,
+    "stage_safe": true,
+    "typography_theme": "paper-theater-editorial",
+    "composition_profile": {
+      "density": "balanced",
+      "min_coverage_ratio": 0.28,
+      "warn_coverage_ratio": 0.4,
+      "max_empty_region_ratio": 0.44
+    }
+  },
+  {
+    "id": "block-math-lab",
+    "name": "积木数学实验室",
+    "age_bands": [
+      "6-8",
+      "8-10"
+    ],
+    "subjects": [
+      "math",
+      "logic"
+    ],
+    "palette": [
+      "#FFF9ED",
+      "#FFB703",
+      "#219EBC",
+      "#FB6F92",
+      "#273043"
+    ],
+    "line_style": "clean rounded",
+    "background_complexity": "low",
+    "image_bias": "medium",
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "stage_safe": false,
+    "stage_min_font_pt": null
+  },
+  {
+    "id": "nature-observation",
+    "name": "自然观察站",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "subjects": [
+      "science",
+      "nature"
+    ],
+    "palette": [
+      "#F4F8EE",
+      "#77A66D",
+      "#E5A84B",
+      "#476A6F"
+    ],
+    "line_style": "soft scientific illustration",
+    "background_complexity": "medium",
+    "image_bias": "high",
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "stage_safe": true,
+    "stage_min_font_pt": 20
+  },
+  {
+    "id": "paper-culture",
+    "name": "纸艺国风",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "subjects": [
+      "language",
+      "history",
+      "culture"
+    ],
+    "palette": [
+      "#F6F0E4",
+      "#B44A3C",
+      "#1F4E5F",
+      "#D5A84B"
+    ],
+    "line_style": "paper cut and ink",
+    "background_complexity": "medium",
+    "image_bias": "high",
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "stage_safe": true,
+    "stage_min_font_pt": 20
+  },
+  {
+    "id": "clean-classroom",
+    "name": "清爽课堂",
+    "age_bands": [
+      "8-10",
+      "10-12"
+    ],
+    "subjects": [
+      "all"
+    ],
+    "palette": [
+      "#FAFAF7",
+      "#2A6F97",
+      "#61A5C2",
+      "#F4A261",
+      "#263238"
+    ],
+    "line_style": "clean editorial",
+    "background_complexity": "low",
+    "image_bias": "low",
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "stage_safe": false,
+    "stage_min_font_pt": null
+  },
+  {
+    "id": "pixel-quest",
+    "name": "像素闯关",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "subjects": [
+      "review",
+      "practice"
+    ],
+    "palette": [
+      "#171A2B",
+      "#67E8F9",
+      "#FDE047",
+      "#FB7185"
+    ],
+    "line_style": "low-resolution pixel",
+    "background_complexity": "medium",
+    "image_bias": "medium",
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "stage_safe": false,
+    "stage_min_font_pt": null
+  },
+  {
+    "id": "premium-paper-theater",
+    "name": "Premium Paper Theater",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "best_for": [
+      "child_stage_speech",
+      "bilingual_speech",
+      "show_and_tell"
+    ],
+    "style": "layered paper stage, scalloped curtains, warm cream background, soft shadows, editorial ribbons",
+    "text_zones": [
+      "left blank stage",
+      "top ribbon",
+      "cloud card"
+    ],
+    "density": "medium-rich",
+    "notes": "Use when the user likes paper-cut style but wants more polish and mature PPT composition.",
+    "typography_theme": "paper-theater-editorial",
+    "composition_profile": {
+      "density": "balanced",
+      "min_coverage_ratio": 0.28,
+      "warn_coverage_ratio": 0.4,
+      "max_empty_region_ratio": 0.44
+    }
+  },
+  {
+    "id": "storybook-watercolor-glow",
+    "name": "Storybook Watercolor Glow",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "best_for": [
+      "personal_story",
+      "reading",
+      "gentle_speech"
+    ],
+    "style": "soft watercolor, warm empty space, gentle garden glow, hand-painted edges",
+    "text_zones": [
+      "soft white panel",
+      "open sky area"
+    ],
+    "density": "medium",
+    "notes": "For tender stories; avoid too many stickers.",
+    "typography_theme": "watercolor-storybook",
+    "composition_profile": {
+      "density": "balanced",
+      "min_coverage_ratio": 0.3,
+      "warn_coverage_ratio": 0.42,
+      "max_empty_region_ratio": 0.42
+    }
+  },
+  {
+    "id": "soft-clay-diorama",
+    "name": "Soft Clay Diorama",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "best_for": [
+      "show_and_tell",
+      "science_intro",
+      "playful_speech"
+    ],
+    "style": "rounded clay miniatures, tactile objects, soft 3D toy-world lighting",
+    "text_zones": [
+      "floating label",
+      "stage plaque"
+    ],
+    "density": "medium",
+    "notes": "Use for object-centered speeches and playful presentations.",
+    "typography_theme": "soft-clay-playful",
+    "composition_profile": {
+      "density": "balanced",
+      "min_coverage_ratio": 0.3,
+      "warn_coverage_ratio": 0.42,
+      "max_empty_region_ratio": 0.42
+    }
+  },
+  {
+    "id": "clean-nursery-editorial",
+    "name": "Clean Nursery Editorial",
+    "age_bands": [
+      "4-6",
+      "6-8",
+      "7-9"
+    ],
+    "best_for": [
+      "formal_speech",
+      "portfolio",
+      "parent_review"
+    ],
+    "style": "premium white space, pastel editorial typography, minimal illustration, delicate borders",
+    "text_zones": [
+      "side rail",
+      "large title panel"
+    ],
+    "density": "medium-rich",
+    "notes": "More tasteful, less cartoonish option.",
+    "typography_theme": "nursery-editorial",
+    "composition_profile": {
+      "density": "light",
+      "min_coverage_ratio": 0.24,
+      "warn_coverage_ratio": 0.34,
+      "max_empty_region_ratio": 0.5
+    }
+  }
+]

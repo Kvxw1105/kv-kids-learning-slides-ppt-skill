@@ -1,0 +1,60 @@
+{
+  "version": "0.6",
+  "generator": "build_sticker_pack.py",
+  "assets": [
+    {
+      "id": "flower",
+      "file": "flower.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "leaf-sprig",
+      "file": "leaf-sprig.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "butterfly",
+      "file": "butterfly.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "star",
+      "file": "star.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "heart",
+      "file": "heart.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "cloud",
+      "file": "cloud.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "ribbon",
+      "file": "ribbon.svg",
+      "format": "svg",
+      "animated": false
+    },
+    {
+      "id": "sparkle-pulse",
+      "file": "sparkle-pulse.gif",
+      "format": "gif",
+      "animated": true
+    },
+    {
+      "id": "butterfly-flap",
+      "file": "butterfly-flap.gif",
+      "format": "gif",
+      "animated": true
+    }
+  ]
+}

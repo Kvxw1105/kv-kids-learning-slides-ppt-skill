@@ -1,0 +1,374 @@
+{
+  "version": "0.6",
+  "mode": "gentle",
+  "safety": {
+    "max_objects_per_slide": 6,
+    "allowed_effects": [
+      "fade",
+      "float-up",
+      "pop"
+    ]
+  },
+  "slides": [
+    {
+      "slide_id": "S01",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S01_Title_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S01_Title_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S01_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S01_top_scallops",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S01_bottom_grass",
+          "effect": "fade",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S01_corner_flower",
+          "effect": "pop",
+          "order": 5,
+          "duration_ms": 260
+        },
+        {
+          "target": "S01_sparkles",
+          "effect": "pop",
+          "order": 6,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S02",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S02_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S02_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S02_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S02_corner_dots",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S02_hello_butterfly",
+          "effect": "fade",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S02_hello_sparkles",
+          "effect": "pop",
+          "order": 5,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S03",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S03_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S03_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S03_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S03_object_leaf",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S03_object_dots",
+          "effect": "fade",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S03_object_sparkles",
+          "effect": "pop",
+          "order": 5,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S04",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S04_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S04_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S04_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S04_action_panel",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S04_action_drops",
+          "effect": "fade",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S04_action_heart",
+          "effect": "pop",
+          "order": 5,
+          "duration_ms": 260
+        },
+        {
+          "target": "S04_action_grass",
+          "effect": "fade",
+          "order": 6,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S05",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S05_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S05_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S05_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S05_weather_panel",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S05_weather_top_ribbon",
+          "effect": "fade",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S05_weather_leaf",
+          "effect": "fade",
+          "order": 5,
+          "duration_ms": 260
+        },
+        {
+          "target": "S05_weather_sparkles",
+          "effect": "pop",
+          "order": 6,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S06",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S06_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S06_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S06_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S06_before_dots",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S06_after_sparkles",
+          "effect": "pop",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S06_growth_leaf",
+          "effect": "fade",
+          "order": 5,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S07",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S07_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S07_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S07_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S07_emotion_sparkles_left",
+          "effect": "pop",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S07_emotion_sparkles_right",
+          "effect": "pop",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S07_emotion_butterfly",
+          "effect": "fade",
+          "order": 5,
+          "duration_ms": 260
+        }
+      ]
+    },
+    {
+      "slide_id": "S08",
+      "transition": "fade",
+      "objects": [
+        {
+          "target": "S08_Line_EN",
+          "effect": "fade",
+          "order": 1,
+          "duration_ms": 450
+        },
+        {
+          "target": "S08_Line_ZH",
+          "effect": "fade",
+          "order": 2,
+          "duration_ms": 350
+        },
+        {
+          "target": "S08_Hero_Image",
+          "effect": "float-up",
+          "order": 1,
+          "duration_ms": 550
+        },
+        {
+          "target": "S08_closing_scallops",
+          "effect": "fade",
+          "order": 3,
+          "duration_ms": 260
+        },
+        {
+          "target": "S08_closing_flower",
+          "effect": "pop",
+          "order": 4,
+          "duration_ms": 260
+        },
+        {
+          "target": "S08_closing_butterfly",
+          "effect": "fade",
+          "order": 5,
+          "duration_ms": 260
+        },
+        {
+          "target": "S08_closing_sparkles",
+          "effect": "pop",
+          "order": 6,
+          "duration_ms": 260
+        }
+      ]
+    }
+  ]
+}

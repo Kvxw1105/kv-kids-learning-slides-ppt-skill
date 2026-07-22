@@ -1,0 +1,722 @@
+{
+  "route": "create-child-speech-deck",
+  "usage_mode": "child_stage_speech",
+  "title": "My Little Flower",
+  "audience": {
+    "age_band": "4-6"
+  },
+  "output_variants": [
+    "stage",
+    "rehearsal",
+    "speaker_script",
+    "notes"
+  ],
+  "speech_profile": {
+    "difficulty": "rich",
+    "target_english_words": [
+      250,
+      290
+    ],
+    "stage_word_budget": [
+      70,
+      115
+    ],
+    "assumptions": [
+      "User asked to increase script by about 150 words from v0.3 and increase PPT visible text by 40%."
+    ],
+    "target_duration_seconds": 198
+  },
+  "bilingual": {
+    "mode": "paired_alternating",
+    "speaker_sequence": [
+      "en",
+      "zh"
+    ]
+  },
+  "visual_system": "premium-paper-theater",
+  "total_english_words": 252,
+  "stage_visible_english_words": 78,
+  "slides": [
+    {
+      "id": "S01",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S01_stage_en",
+            "lang": "en",
+            "text": "My Little Flower\nA tiny story about Pinky",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S01_stage_zh",
+            "lang": "zh",
+            "text": "我的小花\n关于小粉的温柔小故事",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "Hello, everyone. My name is Mia. Today I want to tell you a small story about my little flower. I hope you will like it.",
+        "script_zh": "大家好，我叫 Mia。今天我想给你们讲一个关于我的小花的小故事。希望你们会喜欢。",
+        "actions": [
+          "smile",
+          "wave"
+        ]
+      },
+      "visual": {
+        "layout": "cover",
+        "style": "premium-paper-theater",
+        "story_state": "s01",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S02",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S02_stage_en",
+            "lang": "en",
+            "text": "This is Pinky.\na little brown pot",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S02_stage_zh",
+            "lang": "zh",
+            "text": "这是小粉。\n一个小小的棕色花盆",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "This is my flower. Her name is Pinky. She lives in a little brown pot, next to my window, where the morning light comes in.",
+        "script_zh": "这是我的小花。她叫小粉。她住在一个小小的棕色花盆里，放在我的窗边，早晨的阳光会照进来。",
+        "actions": [
+          "point to flower"
+        ]
+      },
+      "visual": {
+        "layout": "side",
+        "style": "premium-paper-theater",
+        "story_state": "s02",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S03",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S03_stage_en",
+            "lang": "en",
+            "text": "Small at first\ntwo leaves and one pink bud",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S03_stage_zh",
+            "lang": "zh",
+            "text": "一开始很小\n两片叶子和一个粉色花苞",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "When I first saw Pinky, she was very small. She had two green leaves and one tiny pink bud, like a little sleeping hat.",
+        "script_zh": "我第一次看到小粉的时候，她很小。她有两片绿色的叶子，还有一个小小的粉色花苞，像一顶正在睡觉的小帽子。",
+        "actions": [
+          "use small hand gesture"
+        ]
+      },
+      "visual": {
+        "layout": "card",
+        "style": "premium-paper-theater",
+        "story_state": "s03",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S04",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S04_stage_en",
+            "lang": "en",
+            "text": "Good morning, Pinky.\nlook, touch, and check",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S04_stage_zh",
+            "lang": "zh",
+            "text": "早上好，小粉。\n看一看，摸一摸，检查一下",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "Every morning, I say, Good morning, Pinky. I look at her leaves. I check the soil with one gentle finger.",
+        "script_zh": "每天早上，我都会说：早上好，小粉。我看看她的叶子，再用一根手指轻轻碰一碰泥土。",
+        "actions": [
+          "touch one finger gently"
+        ]
+      },
+      "visual": {
+        "layout": "card2",
+        "style": "premium-paper-theater",
+        "story_state": "s04",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S05",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S05_stage_en",
+            "lang": "en",
+            "text": "Water, little by little.\ndrop by drop",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S05_stage_zh",
+            "lang": "zh",
+            "text": "一点一点浇水。\n一滴一滴，慢慢来",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "Then I give her some water. I do not pour too much. Just a small drink, drop by drop, because plants need care.",
+        "script_zh": "然后我给她浇一点水。我不会倒太多。只是一点点，一滴一滴，因为植物需要温柔的照顾。",
+        "actions": [
+          "pretend to pour water"
+        ]
+      },
+      "visual": {
+        "layout": "imageLeft",
+        "style": "premium-paper-theater",
+        "story_state": "s05",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S06",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S06_stage_en",
+            "lang": "en",
+            "text": "Sunshine and rain\nwarm sun and soft rain",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S06_stage_zh",
+            "lang": "zh",
+            "text": "阳光和小雨\n暖暖阳光，轻轻小雨",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "Pinky also needs sunshine and gentle rain. Sunshine makes her warm. Rain makes the soil soft. Together, they help her grow stronger.",
+        "script_zh": "小粉还需要阳光和温柔的小雨。阳光让她暖暖的，小雨让泥土变软。它们一起帮助她长得更结实。",
+        "actions": [
+          "open both hands"
+        ]
+      },
+      "visual": {
+        "layout": "weather",
+        "style": "premium-paper-theater",
+        "story_state": "s06",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S07",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S07_stage_en",
+            "lang": "en",
+            "text": "I wait.\ngrowing takes time",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S07_stage_zh",
+            "lang": "zh",
+            "text": "我慢慢等。\n长大需要时间",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "Some days, nothing big happens. I only see the same little bud. But I wait. I know growing takes time and patience.",
+        "script_zh": "有些日子，看起来没有发生很大的变化。我只看到同一个小花苞。但是我会等，因为长大需要时间和耐心。",
+        "actions": [
+          "pause and breathe"
+        ]
+      },
+      "visual": {
+        "layout": "card",
+        "style": "premium-paper-theater",
+        "story_state": "s07",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S08",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S08_stage_en",
+            "lang": "en",
+            "text": "One afternoon...\nthe bud opened!",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S08_stage_zh",
+            "lang": "zh",
+            "text": "有一天下午……\n花苞打开了！",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "One afternoon, I saw something beautiful. Pinky’s bud opened like a small pink umbrella. I was surprised, and I called my mom.",
+        "script_zh": "有一天下午，我看见了很美的事情。小粉的花苞打开了，像一把粉色的小伞。我很惊喜，马上叫妈妈来看。",
+        "actions": [
+          "look surprised"
+        ]
+      },
+      "visual": {
+        "layout": "bloom",
+        "style": "premium-paper-theater",
+        "story_state": "s08",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S09",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S09_stage_en",
+            "lang": "en",
+            "text": "I felt proud.\nI helped her every day.",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S09_stage_zh",
+            "lang": "zh",
+            "text": "我很骄傲。\n我每天都照顾她。",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "I clapped my hands and smiled. I felt proud because I helped Pinky every day. Pinky made my heart feel warm.",
+        "script_zh": "我拍了拍手，也笑了。我觉得很骄傲，因为我每天都在照顾小粉。小粉让我的心里暖暖的。",
+        "actions": [
+          "clap softly"
+        ]
+      },
+      "visual": {
+        "layout": "card2",
+        "style": "premium-paper-theater",
+        "story_state": "s09",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S10",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S10_stage_en",
+            "lang": "en",
+            "text": "What I learned\nlove, water, sunshine, time",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S10_stage_zh",
+            "lang": "zh",
+            "text": "我学到了什么\n爱，水，阳光，时间",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "My little flower taught me this. Small things can grow with love, water, sunshine, and time. Even a tiny bud can become bright.",
+        "script_zh": "我的小花教会了我一件事：小小的东西，也可以在爱、水、阳光和时间里慢慢长大。小小的花苞，也能变得很明亮。",
+        "actions": [
+          "show flower with hands"
+        ]
+      },
+      "visual": {
+        "layout": "lesson",
+        "style": "premium-paper-theater",
+        "story_state": "s10",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    },
+    {
+      "id": "S11",
+      "role": "child-speech",
+      "screen": {
+        "text_blocks": [
+          {
+            "id": "S11_stage_en",
+            "lang": "en",
+            "text": "Thank you!\nMay your day bloom too.",
+            "font_size_pt": 25,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          },
+          {
+            "id": "S11_stage_zh",
+            "lang": "zh",
+            "text": "谢谢大家！\n愿你今天也像花一样绽放。",
+            "font_size_pt": 21,
+            "visible_in": [
+              "stage",
+              "rehearsal"
+            ]
+          }
+        ]
+      },
+      "speaker": {
+        "script_en": "Thank you for listening to my story. I hope you have a sweet day, and I hope something beautiful blooms in your heart too.",
+        "script_zh": "谢谢大家听我的故事。希望你今天也过得甜甜的，也希望有一朵美好的小花，在你的心里慢慢开放。",
+        "actions": [
+          "bow",
+          "wave"
+        ]
+      },
+      "visual": {
+        "layout": "closing",
+        "style": "premium-paper-theater",
+        "story_state": "s11",
+        "required_action": "stage cue or story object shown",
+        "character_ids": [
+          "speaker-girl-01"
+        ],
+        "completion": {
+          "white_space_intent": "breathing room around one clear focal point",
+          "fill_strategy": [
+            "enlarge hero",
+            "increase type scale",
+            "rebalance zones",
+            "add topic-linked support components"
+          ],
+          "target_coverage_ratio": 0.4,
+          "max_empty_region_ratio": 0.44
+        }
+      },
+      "stage": {
+        "duration_seconds": 18,
+        "animation_mode": "gentle"
+      },
+      "purpose": "child-speech"
+    }
+  ],
+  "speech_story": {
+    "specific_object": "Pinky the little flower in a brown pot",
+    "action": "watering, waiting, watching the bud open",
+    "emotion_change": "curious and careful to proud and happy"
+  },
+  "character_bible": {
+    "characters": [
+      {
+        "character_id": "speaker-girl-01",
+        "identity_lock": {
+          "age": "kindergarten",
+          "hair": "short brown hair",
+          "accessory": "pink flower hair clip",
+          "outfit": "yellow flower dress",
+          "shoes": "red shoes"
+        }
+      }
+    ]
+  },
+  "speaker_name": "Mia",
+  "speaker_age": 5,
+  "typography": {
+    "theme_id": "paper-theater-editorial"
+  },
+  "composition_profile": {
+    "density": "balanced",
+    "min_coverage_ratio": 0.28,
+    "warn_coverage_ratio": 0.4,
+    "max_empty_region_ratio": 0.44,
+    "text_scale_ratio": 1.0
+  }
+}

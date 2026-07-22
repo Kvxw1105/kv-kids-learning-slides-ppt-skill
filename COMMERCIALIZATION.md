@@ -1,21 +1,23 @@
-# 商业化说明
+# Commercialization Notes
 
-本仓库目前用于产品研发、能力验证与未来商业化准备。
+This repository is prepared as a **private commercial R&D repository** for `kv-kids-learning-slides`.
 
-## 公开前必须确认
+## Recommended repository strategy
 
-1. 核心 Skill、脚本、模板与案例的授权范围。
-2. AI 生成或第三方图片、字体、图标与示例素材的商业使用权。
-3. 免费版、标准版和商业精品版的功能边界。
-4. 交付责任、退款条件、数据隐私与未成年人内容安全。
-5. 是否继续采用 MIT 许可；若希望保留独占商业权利，应在正式公开发行前调整许可。
+1. Keep the full Skill source repository private during product validation.
+2. Use the `docs/` landing page or a separate public marketing repository for external introduction.
+3. Do not expose internal prompts, quality-gate rules, layout registries, or production scripts in a public repository before deciding the commercial model.
+4. Publish sample renders and product capability descriptions separately from the source code.
 
-## 建议的产品分层
+## Licensing warning
 
-- 快速草稿：结构正确、可编辑、基础 QA。
-- 标准成品：统一视觉、角色连续、讲稿与视觉复核。
-- 商业精品：艺术方向、多候选构图、角色资产包、两轮精修与商业质量评分。
+The current Skill bundle contains a historical MIT license file. MIT allows redistribution, modification, sublicensing, and commercial use by recipients. If the intended commercial model requires source exclusivity or controlled redistribution, obtain legal review and replace the public distribution license before release.
 
-## 当前状态
+This file is operational guidance, not legal advice.
 
-当前版本为商业化预研版本，不构成正式销售承诺。仓库拥有者应在正式对外分发前完成法律与授权复核。
+## Suggested product layers
+
+- **Private core repository**: full Skill, scripts, references, test assets and commercial QA.
+- **Public landing page**: product story, screenshots, supported outputs and contact channel.
+- **Customer delivery package**: versioned Skill ZIP, end-user documentation and license terms.
+- **Internal examples repository**: regression decks and visual benchmarks, private by default.

@@ -1,0 +1,34 @@
+{
+  "schema": "kv_kids_art_direction_v1",
+  "delivery_level": "commercial-premium",
+  "title": "My Little Flower",
+  "core_emotion": "gentle wonder turning into warm confidence",
+  "visual_metaphor": "a small flower becomes a stage companion for the child speaker",
+  "signature_motif": "rounded watercolor flower-petal labels with soft green stems and pink accents",
+  "palette_story": [
+    "cream paper",
+    "leaf green",
+    "soft rose",
+    "warm terracotta",
+    "sky blue"
+  ],
+  "typography_voice": "English as warm display title, Chinese as equal companion line; no tiny subtitles",
+  "page_rhythm": [
+    "establish",
+    "introduce",
+    "close-up",
+    "world opens",
+    "action",
+    "growth",
+    "emotion peak",
+    "clean farewell"
+  ],
+  "forbidden_moves": [
+    "office rectangles",
+    "pure black Chinese title",
+    "random stickers",
+    "same layout for three consecutive slides",
+    "large blank area without visual role"
+  ],
+  "source_sha256": "dd810375ea769d4178c5649ac763091574e3bd3e3d6574414c18f08fdca04348"
+}

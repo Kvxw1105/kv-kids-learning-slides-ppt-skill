@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "slide_count": 11,
+  "planned_duration_seconds": 198,
+  "total_english_words": 252,
+  "stage_visible_english_words": 78,
+  "distinct_layouts": [
+    "bloom",
+    "card",
+    "card2",
+    "closing",
+    "cover",
+    "imageLeft",
+    "lesson",
+    "side",
+    "weather"
+  ],
+  "gates": {
+    "scenario_gate": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": []
+    },
+    "age_gate": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "S01/S01_stage_zh: visible line may be too long (14 units)",
+        "S02/S02_stage_zh: visible line may be too long (13 units)",
+        "S03/S03_stage_zh: visible line may be too long (16 units)",
+        "S04/S04_stage_zh: visible line may be too long (15 units)",
+        "S05/S05_stage_zh: visible line may be too long (13 units)",
+        "S06/S06_stage_zh: visible line may be too long (13 units)",
+        "S11/S11_stage_zh: visible line may be too long (15 units)"
+      ]
+    },
+    "speech_gate": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": [
+        "S01: English sentence may be hard for a young child: 'Today I want to tell you a small story about my little flower'",
+        "S02: English sentence may be hard for a young child: 'She lives in a little brown pot, next to my window, where the morning light comes in'",
+        "S03: English sentence may be hard for a young child: 'She had two green leaves and one tiny pink bud, like a little sleeping hat'",
+        "S11: English sentence may be hard for a young child: 'I hope you have a sweet day, and I hope something beautiful blooms in your heart too'"
+      ]
+    },
+    "bilingual_gate": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": []
+    },
+    "speech_profile_gate": {
+      "status": "PASS",
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "S01/S01_stage_zh: visible line may be too long (14 units)",
+    "S02/S02_stage_zh: visible line may be too long (13 units)",
+    "S03/S03_stage_zh: visible line may be too long (16 units)",
+    "S04/S04_stage_zh: visible line may be too long (15 units)",
+    "S05/S05_stage_zh: visible line may be too long (13 units)",
+    "S06/S06_stage_zh: visible line may be too long (13 units)",
+    "S11/S11_stage_zh: visible line may be too long (15 units)",
+    "S01: English sentence may be hard for a young child: 'Today I want to tell you a small story about my little flower'",
+    "S02: English sentence may be hard for a young child: 'She lives in a little brown pot, next to my window, where the morning light comes in'",
+    "S03: English sentence may be hard for a young child: 'She had two green leaves and one tiny pink bud, like a little sleeping hat'",
+    "S11: English sentence may be hard for a young child: 'I hope you have a sweet day, and I hope something beautiful blooms in your heart too'"
+  ]
+}

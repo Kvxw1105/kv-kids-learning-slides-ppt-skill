@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "cover",
+    "role": "cover",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "cover"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 40,
+    "media_slots": 1,
+    "supports_reveal": false,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 40,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "story-hook",
+    "role": "hook",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "story hook"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 30,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 30,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "character-request",
+    "role": "hook",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "character request"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 35,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 35,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "observe-and-guess",
+    "role": "guided-discovery",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "observe and guess"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 45,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 45,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "concrete-manipulation",
+    "role": "guided-discovery",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "concrete manipulation"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 30,
+    "media_slots": 2,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 30,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "step-by-step",
+    "role": "explanation",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "step by step"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 55,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 55,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "compare-cases",
+    "role": "comparison",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "compare cases"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 70,
+    "media_slots": 2,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 70,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "concept-bridge",
+    "role": "explanation",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "concept bridge"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 55,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 55,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "rule-reveal",
+    "role": "conclusion",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "rule reveal"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 45,
+    "media_slots": 0,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 45,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "quick-check",
+    "role": "assessment",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "quick check"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 45,
+    "media_slots": 0,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 45,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "multiple-choice",
+    "role": "practice",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "multiple choice"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 70,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 70,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "drag-sort",
+    "role": "practice",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "drag sort"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 45,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 45,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "find-the-error",
+    "role": "misconception",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "find the error"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 65,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 65,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "misconception",
+    "role": "misconception",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "misconception"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 70,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 70,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "guided-practice",
+    "role": "practice",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "guided practice"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 70,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 70,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "independent-practice",
+    "role": "practice",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "independent practice"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 85,
+    "media_slots": 1,
+    "supports_reveal": false,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 85,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "challenge",
+    "role": "challenge",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "challenge"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 70,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 70,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "life-transfer",
+    "role": "transfer",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "life transfer"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 70,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 70,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "knowledge-map",
+    "role": "summary",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "knowledge map"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 75,
+    "media_slots": 0,
+    "supports_reveal": false,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 75,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "exit-ticket",
+    "role": "assessment",
+    "age_bands": [
+      "6-8",
+      "8-10",
+      "10-12"
+    ],
+    "best_for": [
+      "exit ticket"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "block-math-lab",
+      "nature-observation",
+      "paper-culture",
+      "clean-classroom",
+      "pixel-quest"
+    ],
+    "max_words": 55,
+    "media_slots": 0,
+    "supports_reveal": true,
+    "editable_objects": [
+      "title",
+      "body",
+      "labels",
+      "shapes"
+    ],
+    "usage_modes": [
+      "classroom_learning"
+    ],
+    "max_visible_words": 55,
+    "min_font_size_pt": 20,
+    "stage_safe": false
+  },
+  {
+    "id": "kindergarten-speech-cover",
+    "role": "cover",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "幼儿演讲封面",
+      "title hero"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 12,
+    "max_visible_words": 12,
+    "min_font_size_pt": 24,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "title_en",
+      "title_zh",
+      "speaker_name",
+      "hero_image",
+      "decorative_shapes"
+    ]
+  },
+  {
+    "id": "hello-and-wave",
+    "role": "greeting",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "问候",
+      "自我介绍",
+      "挥手动作"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "paper-culture"
+    ],
+    "max_words": 12,
+    "max_visible_words": 10,
+    "min_font_size_pt": 24,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "core_line_en",
+      "core_line_zh",
+      "speaker_avatar",
+      "wave_icon"
+    ]
+  },
+  {
+    "id": "this-is-me",
+    "role": "self-introduction",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "名字",
+      "年龄",
+      "兴趣"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "paper-culture"
+    ],
+    "max_words": 14,
+    "max_visible_words": 12,
+    "min_font_size_pt": 22,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "name",
+      "one_fact",
+      "avatar",
+      "badge"
+    ]
+  },
+  {
+    "id": "show-one-object",
+    "role": "object-introduction",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "展示一个物体",
+      "玩具",
+      "花朵",
+      "宠物"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 14,
+    "max_visible_words": 12,
+    "min_font_size_pt": 22,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "object_name_en",
+      "object_name_zh",
+      "hero_object",
+      "origin_tag"
+    ]
+  },
+  {
+    "id": "one-action-one-line",
+    "role": "action",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "浇水",
+      "喂养",
+      "画画",
+      "跳舞",
+      "做动作"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 12,
+    "max_visible_words": 10,
+    "min_font_size_pt": 24,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "action_line_en",
+      "action_line_zh",
+      "action_hero",
+      "motion_path_hint"
+    ]
+  },
+  {
+    "id": "weather-pair",
+    "role": "supporting-condition",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "阳光和雨水",
+      "两个条件",
+      "成对元素"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation"
+    ],
+    "max_words": 10,
+    "max_visible_words": 8,
+    "min_font_size_pt": 24,
+    "media_slots": 2,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "left_object",
+      "right_object",
+      "left_label",
+      "right_label",
+      "center_subject"
+    ]
+  },
+  {
+    "id": "before-and-after",
+    "role": "change",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "成长",
+      "变化",
+      "打开",
+      "前后对比"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 14,
+    "max_visible_words": 12,
+    "min_font_size_pt": 22,
+    "media_slots": 2,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "before_visual",
+      "after_visual",
+      "before_label",
+      "after_label",
+      "change_arrow"
+    ]
+  },
+  {
+    "id": "three-step-story",
+    "role": "sequence",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "三个动作",
+      "过程",
+      "故事顺序"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 18,
+    "max_visible_words": 15,
+    "min_font_size_pt": 22,
+    "media_slots": 3,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "step_1",
+      "step_2",
+      "step_3",
+      "sequence_arrows"
+    ]
+  },
+  {
+    "id": "emotion-moment",
+    "role": "emotion",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "惊喜",
+      "开心",
+      "自豪",
+      "害怕后勇敢"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 12,
+    "max_visible_words": 10,
+    "min_font_size_pt": 24,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "emotion_word_en",
+      "emotion_word_zh",
+      "face_or_scene",
+      "accent_shapes"
+    ]
+  },
+  {
+    "id": "big-word-cue",
+    "role": "memory-cue",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech",
+      "rehearsal"
+    ],
+    "best_for": [
+      "关键词提示",
+      "排练记忆点"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 6,
+    "max_visible_words": 5,
+    "min_font_size_pt": 30,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "big_word",
+      "small_translation",
+      "cue_icon"
+    ]
+  },
+  {
+    "id": "audience-question",
+    "role": "audience-interaction",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "问观众一个简单问题",
+      "举手互动"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 14,
+    "max_visible_words": 12,
+    "min_font_size_pt": 22,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "question_en",
+      "question_zh",
+      "choice_visuals",
+      "gesture_icon"
+    ]
+  },
+  {
+    "id": "simple-closing",
+    "role": "closing",
+    "age_bands": [
+      "4-6",
+      "6-8"
+    ],
+    "usage_modes": [
+      "child_stage_speech"
+    ],
+    "best_for": [
+      "谢谢",
+      "祝愿",
+      "挥手结束"
+    ],
+    "visual_systems": [
+      "storybook-warm",
+      "nature-observation",
+      "paper-culture"
+    ],
+    "max_words": 12,
+    "max_visible_words": 10,
+    "min_font_size_pt": 24,
+    "media_slots": 1,
+    "supports_reveal": true,
+    "stage_safe": true,
+    "editable_objects": [
+      "closing_line_en",
+      "closing_line_zh",
+      "speaker_avatar",
+      "final_symbol"
+    ]
+  }
+]
